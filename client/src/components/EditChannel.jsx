@@ -50,6 +50,8 @@ const EditChannel = ( { setIsEditing }) => {
 
     }
 
+
+
   return (
     <div className="edit-channel__container">
       <div className="edit-channel__header">
@@ -62,7 +64,18 @@ const EditChannel = ( { setIsEditing }) => {
         <p>Save Changes</p>
       </div>
 
-      {}
+      {/* { query && (
+        <ResultsDropDown
+            teamChannels={teamChannels}
+            directChannels={directChannels}
+            loading={loading}
+            setChannel={setChannel}
+            setQuery={setQuery}
+            setToggleContainer={setToggleContainer}
+        
+        
+        />
+      )} */}
     </div>
 
   )
