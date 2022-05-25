@@ -61,7 +61,10 @@ const EditChannel = ( { setIsEditing }) => {
       <div className="edit-channel__button-wrapper" onClick={updateChannel}>
         <p>Save Changes</p>
       </div>
+
+      {}
     </div>
+
   )
 }
 
